@@ -87,13 +87,13 @@ class MultiLevelInheritance {
 		System.out.println("loan Number : " + userData.getloanNumber() + ", Loan Amount : " + userData.getloanAmount() + ", Manager name : " + userData.getmanagerName());
 		System.out.println("Ia loan approce? (if Yes then enter y or n for false) : ");
 		String userInput = userInformation.next();
-		if (userInput.equals("Y") || userInput.equals("y")) {
+		if (userInput.equals("Y") || userInput.equals("y")) 
 			System.out.println("Loan status : Approved");
-		} else if (userInput.equals("N") || userInput.equals("n")) {
+		else if (userInput.equals("N") || userInput.equals("n")) 
 			System.out.println("Loan status : Cancelled");
-		} else {
+		 else 
 			System.out.println("Choose between Y or N.");
-		}
+		
 	}
 
 }

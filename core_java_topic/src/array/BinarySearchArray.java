@@ -10,11 +10,11 @@ public class BinarySearchArray {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-		System.out.println("The array element are : " +(Arrays.toString(myArray)));
+		int[] numberList = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		System.out.println("The array element are : " +(Arrays.toString(numberList)));
 		System.out.println("Enter the element : ");
 		int findElement = scanner.nextInt();
-		int index = findIndex(myArray, findElement);
+		int index = findIndex(numberList, findElement);
 
 		if (index != -1) {
 			System.out.println("The element " + findElement + " is at index " + index + " in the array.");
